@@ -42,7 +42,7 @@ int main() {
 
     // Carta 2
 
-    getchar();  
+    getchar();  //Consome o caractere da nova linha deixado no buffer pelo scanf anterior
     printf("Digite uma letra de 'A' a 'H' para o estado:\n");
     scanf("%c", &estadoCarta2);  
 
@@ -67,22 +67,22 @@ int main() {
     // Resultado Carta 1
     printf("\nCartão 1: \n");
     printf("Estado: %c\n", estadoCarta1);
-    printf("Codigo: %s\n", codigoCarta1);
+    printf("Código: %s\n", codigoCarta1);
     printf("Nome da Cidade: %s\n", nomeCidadeCarta1);
     printf("População: %d\n", populacaoCarta1);
-    printf("Area: %.2f km²\n", areaCarta1);
+    printf("Área: %.2f km²\n", areaCarta1);
     printf("PIB: %.2f\n", pibCarta1);
-    printf("Numero de Pontos Turisticos: %d\n", pontoTuristicoCarta1);
+    printf("Número de Pontos Turísticos: %d\n", pontoTuristicoCarta1);
 
     // Resultado Carta 2
     printf("\nCartão 2: \n");
     printf("Estado: %c\n", estadoCarta2);
-    printf("Codigo: %s\n", codigoCarta2);
+    printf("Código: %s\n", codigoCarta2);
     printf("Nome da Cidade: %s\n", nomeCidadeCarta2);
     printf("População: %d\n", populacaoCarta2);
-    printf("Area: %.2f km²\n", areaCarta2);
+    printf("Área: %.2f km²\n", areaCarta2);
     printf("PIB: %.2f\n", pibCarta2);
-    printf("Numero de Pontos Turisticos: %d\n", pontoTuristicoCarta2);
+    printf("Número de Pontos Turísticos: %d\n", pontoTuristicoCarta2);
 
     return 0;
 }
