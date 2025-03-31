@@ -22,22 +22,22 @@ int main() {
     printf("Digite uma letra de 'A' a 'H' para o estado:\n");
     scanf("%c", &estadoCarta1);  
 
-    printf("Digite a letra do estado seguida de um numero de 01 a 04 (ex: A01, B03):\n");
+    printf("Digite a letra do estado seguida de um número de 01 a 04 (ex: A01, B03):\n");
     scanf("%s", codigoCarta1);
 
     printf("Digite o nome da cidade: \n");
     scanf("%s", nomeCidadeCarta1);
 
-    printf("Digite o numero de habitantes da cidade: \n");
+    printf("Digite o número de habitantes da cidade: \n");
     scanf("%d", &populacaoCarta1);
 
-    printf("Digite a area da cidade em quilometros quadrados: \n");
+    printf("Digite a área da cidade em quilômetros quadrados: \n");
     scanf("%f", &areaCarta1);
 
     printf("Digite o Produto Interno Bruto da cidade: \n");
     scanf("%f", &pibCarta1);
 
-    printf("Digite a quantidade de pontos turisticos na cidade: \n");
+    printf("Digite a quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &pontoTuristicoCarta1);
 
     // Carta 2
@@ -46,22 +46,22 @@ int main() {
     printf("Digite uma letra de 'A' a 'H' para o estado:\n");
     scanf("%c", &estadoCarta2);  
 
-    printf("Digite a letra do estado seguida de um numero de 01 a 04 (ex: A01, B03):\n");
+    printf("Digite a letra do estado seguida de um número de 01 a 04 (ex: A01, B03):\n");
     scanf("%s", codigoCarta2);
 
     printf("Digite o nome da cidade: \n");
     scanf("%s", nomeCidadeCarta2);
 
-    printf("Digite o numero de habitantes da cidade: \n");
+    printf("Digite o número de habitantes da cidade: \n");
     scanf("%d", &populacaoCarta2);
 
-    printf("Digite a area da cidade em quilometros quadrados: \n");
+    printf("Digite a área da cidade em quilômetros quadrados: \n");
     scanf("%f", &areaCarta2);
 
     printf("Digite o Produto Interno Bruto da cidade: \n");
     scanf("%f", &pibCarta2);
 
-    printf("Digite a quantidade de pontos turisticos na cidade: \n");
+    printf("Digite a quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &pontoTuristicoCarta2);
     
     // Resultado Carta 1
