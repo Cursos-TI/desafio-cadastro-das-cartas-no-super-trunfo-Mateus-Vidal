@@ -31,7 +31,7 @@ int main() {
     printf("Digite o numero de habitantes da cidade: \n");
     scanf("%d", &populacaoCarta1);
 
-    printf("Digite a área da cidade em quilometros quadrados: \n");
+    printf("Digite a area da cidade em quilometros quadrados: \n");
     scanf("%f", &areaCarta1);
 
     printf("Digite o Produto Interno Bruto da cidade: \n");
@@ -52,10 +52,10 @@ int main() {
     printf("Digite o nome da cidade: \n");
     scanf("%s", nomeCidadeCarta2);
 
-    printf("Digite o número de habitantes da cidade: \n");
+    printf("Digite o numero de habitantes da cidade: \n");
     scanf("%d", &populacaoCarta2);
 
-    printf("Digite a área da cidade em quilometros quadrados: \n");
+    printf("Digite a area da cidade em quilometros quadrados: \n");
     scanf("%f", &areaCarta2);
 
     printf("Digite o Produto Interno Bruto da cidade: \n");
@@ -67,22 +67,22 @@ int main() {
     // Resultado Carta 1
     printf("\nCartão 1: \n");
     printf("Estado: %c\n", estadoCarta1);
-    printf("Código: %s\n", codigoCarta1);
+    printf("Codigo: %s\n", codigoCarta1);
     printf("Nome da Cidade: %s\n", nomeCidadeCarta1);
     printf("População: %d\n", populacaoCarta1);
-    printf("Área: %.2f km²\n", areaCarta1);
+    printf("Area: %.2f km²\n", areaCarta1);
     printf("PIB: %.2f\n", pibCarta1);
-    printf("Número de Pontos Turísticos: %d\n", pontoTuristicoCarta1);
+    printf("Numero de Pontos Turisticos: %d\n", pontoTuristicoCarta1);
 
     // Resultado Carta 2
     printf("\nCartão 2: \n");
     printf("Estado: %c\n", estadoCarta2);
-    printf("Código: %s\n", codigoCarta2);
+    printf("Codigo: %s\n", codigoCarta2);
     printf("Nome da Cidade: %s\n", nomeCidadeCarta2);
     printf("População: %d\n", populacaoCarta2);
-    printf("Área: %.2f km²\n", areaCarta2);
+    printf("Area: %.2f km²\n", areaCarta2);
     printf("PIB: %.2f\n", pibCarta2);
-    printf("Número de Pontos Turísticos: %d\n", pontoTuristicoCarta2);
+    printf("Numero de Pontos Turisticos: %d\n", pontoTuristicoCarta2);
 
     return 0;
 }
